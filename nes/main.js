@@ -7,9 +7,10 @@ function download_listfile(){
 window.onload = function(){
     var button = document.getElementById('mybutton');
     var btnOpen = document.getElementById('open');
-    setTimeout(function(){
-        button.click();
-    },100);  // this will make it click again every 1000 miliseconds
+    // setTimeout(function(){
+    //     button.click();
+    // },100);  // this will make it click again every 1000 miliseconds
+    //
     setTimeout(function(){
         btnOpen.click();
     },150);  // this will make it click again every 1000 miliseconds
